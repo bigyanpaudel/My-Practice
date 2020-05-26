@@ -8,6 +8,7 @@ form.addEventListener('submit' ,function(event){
 	}else{
 		var x = parseFloat(num1.value);
 		var y = parseFloat(num2.value);
+		console.log(x);
 
 		var result = (x/y) * 100;
 		console.log(result);
