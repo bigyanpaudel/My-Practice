@@ -16,5 +16,5 @@ form.addEventListener('submit' ,function(event){
 
 		resultField.innerText = "The answer is:  " + result + "  	 %";
 	}
-
+    console.log("Hello");
 } )
